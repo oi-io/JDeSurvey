@@ -39,11 +39,11 @@ public class ApplicationConversionServiceFactoryBean extends FormattingConversio
 	private SurveyService surveyService;
 	
 	
-	@Override
-	protected void installFormatters(FormatterRegistry registry) {
-		super.installFormatters(registry);
-		// Register survey converters and formatters
-	}
+//	@Override
+//	protected void installFormatters(FormatterRegistry registry) {
+//		super.installFormatters(registry);
+//		// Register survey converters and formatters
+//	}
 	
 
 	public Converter<Survey, String> getSurveyToStringConverter() {

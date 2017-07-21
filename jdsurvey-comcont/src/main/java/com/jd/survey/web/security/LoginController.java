@@ -66,9 +66,6 @@ import com.jd.survey.service.settings.ApplicationSettingsService;
 import com.jd.survey.service.settings.SurveySettingsService;
 
 
-
-
-
 @RequestMapping("/public")
 @Controller
 public class LoginController {
